@@ -1,3 +1,7 @@
+LabyMod-Addon
+
+Source-Code besteht aus lediglich zwei Klassen, das ganze Projekt kann so wie es ist importiert werden und wie in https://docs.labymod.net/pages/create-addons/setup_project/ beschrieben, verwendet werden.
+
 -------------------------------------------
 Source installation information for modders
 -------------------------------------------
