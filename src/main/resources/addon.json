@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "ClearlagReminder",
+  "mainClass": "borg.locutus.reminder.ClearlagReminder",
+  "description": "Zielserver: GrieferGames. Bei verbleibenden 20 Sekunden vor dem Clearlag wird eine Warnung in der Mitte des Bildschirms ausgegeben.",
+  "version": 1,
+  "author": "LocutusVonBorg",
+  "category": 1,
+  "icon": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/50/Book_JE2_BE2.png/revision/latest/scale-to-width-down/150?cb=20190530235325"
+}
