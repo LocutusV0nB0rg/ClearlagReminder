@@ -7,7 +7,9 @@ public class ClearlagListener implements MessageReceiveEvent {
 
     @Override
     public boolean onReceive(String message, String unformattedMessage) {
-        if(message.equals("§r§8[§r§6GrieferGames§r§8] §r§4Warnung! §r§cDie auf dem Boden liegenden Items werden in §r§420 §r§cSekunden entfernt!§r")) {
+        if(message.contains("§r§8[§r§6GrieferGames§r§8] §r§4Warnung! §r§cDie auf dem Boden liegenden Items werden in §r§420 §r§cSekunden entfernt!§r")) {
+            System.out.println("clearlag came");
+
             if (ClearlagReminder.getInstance().isMidScreenReminder())
                 showTextOnScreen();
         }

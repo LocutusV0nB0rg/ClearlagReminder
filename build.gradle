@@ -24,6 +24,9 @@ version = "1.0"
 group= "borg.locutus.reminder" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ClearlagReminder"
 
+compileJava.options.encoding = 'UTF-8'
+
+
 minecraft {
     version = "1.8.9-11.15.1.1855"
     runDir = "run"
